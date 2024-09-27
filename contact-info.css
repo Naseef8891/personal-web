@@ -1,0 +1,205 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin-top:0px;
+    padding-left: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 0px 10px rgb(200, 194, 187);
+    z-index: 1;
+    
+    
+}
+.navbar-right{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    
+}
+body{
+    margin: 0px;
+    
+}
+
+#back{
+    width: 100%;
+    height: 1000px;
+    padding-top: 100px;
+    background-color: rgb(237, 227, 216);
+    display: flex;
+    justify-content: center;
+}
+#center{
+    width: 600px;
+    height: 700px;
+    background-color:white   ;
+    margin-top: 150px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 15px rgb(200, 194, 187);
+    
+}
+.box-style{
+    width: 200px;
+    height: 30px;
+    border:none;
+    border-bottom: 2px solid black;
+}
+.box-style:hover{
+    border-bottom: 2px solid blue;
+}
+.box-style:focus{
+    outline: none;
+}
+#title{
+    width: 600px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    position: absolute;
+}
+#form{
+    width: 500px;
+    height: 600px;
+    /* background-color: yellow; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.rows{
+    width: 450px;
+    height: 100px;
+    /* background-color: white; */
+    
+}
+#special{
+    display: flex;
+    justify-content: space-between;
+}
+#right-box{
+    width: 250px;
+    height: 100px;
+    
+}
+#left-box{
+    width: 250px;
+    height: 100px;
+    
+}
+
+.style{
+    width: 200px;
+}
+
+.big-heading{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: -90px;
+    
+    
+}
+#text-button{
+    border: solid 1px;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    padding: 5%;
+    width: 100px;
+}
+#photo-social{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin-bottom:-500px ;
+    position: absolute;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#bottom-bar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bb-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 100%;
+    
+    margin-right: 50px;
+}
+#size-pos{
+    
+    font-size: 25px;
+    
+}
+#contact-button{
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 25px; 
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin-top: 30px;
+}
+#contact-button:hover{
+    background-color: white;
+    color: blue;
+    
+}
+
+.bold{
+    font-weight: bold;
+}
+#social{
+    
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#text-button:hover{
+    background-color: blue;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.icon{
+    color: black;
+    
+}
+.icon:hover{
+    cursor: pointer;
+}

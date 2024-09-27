@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-info.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Contact</title>
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "s2wp_wxjjhbdCgmYb",
+      });
+   })();
+</script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <h1>Naseef/ <span>WEB DESIGNER</span> </h1>
+        </div>
+        <div class="navbar-right">
+            <a href="mainpage.html">ABOUT ME</a>
+            <a href="skills.html">SKILLS</a>
+            <a href="project.html">PROJECTS</a>
+            <a href="contact-info.html">CONTACT</a>
+        </div>
+    </div>
+    <div id="back">
+        <div id="center">
+            <div id="title">
+                <li style="list-style-type: none; font-size: 50PX;">CONTACT ME</li>
+            </div>
+            <div id="form">
+                <div class="rows" id="special">
+                    <div id="right-box">
+                        <!-- <label for="">First Name</label> -->
+                        <form action="">
+                            <input type="text" id="name" placeholder="First Name" class="box-style">
+                        </form>
+                        
+                    </div>
+                    <div id="left-box">
+                        <!-- <label for="">Last Name</label> -->
+                        <form action="">
+                            <input type="text" placeholder="Last Name" class="box-style">
+                        </form>
+                        
+                    </div>
+
+                    
+                </div>
+                <div class="rows">
+                    <!-- <label for="">Email</label> -->
+                    <input type="email" name="email" class="box-style" style="width: 100%; height: 30px;" placeholder="Email">
+                    
+                </div>
+                <div class="rows">
+                    <input type="text" class="box-style" style="width: 100%; height: 30px;" placeholder="Subject">
+                </div>
+                <div class="rows">
+                    <textarea name="" id=""class="box-style" style="width: 100%; height: 30px; " placeholder="Messege"></textarea>
+                    <button id="contact-button" >send</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="bottom-bar">
+        <div id="bb-left">
+            <p style="margin-left: 20px; "><i class='bx bx-copyright' ></i> 2024 By Naseef <br>powered and secured by VS code</p>
+        </div>
+        <div id="bb-right">
+            <div class="align-bb-r"><p> <b>Call</b><br>999-516-4211</p>
+                
+            </div>
+            <p><b>Write</b> <br> naseefmarutha@gmail.com</p>
+            <p> <b>Follow</b><br><i class='bx bxl-facebook icon' id="size-pos"></i>
+                <i class='bx bxl-instagram icon' id="size-pos"></i>
+                <i class='bx bxl-linkedin icon' id="size-pos"></i>
+                <i class='bx bxl-twitter icon' id="size-pos"></i> </p>
+        </div>
+    </div>
+    
+</body>
+</html>
