@@ -16,6 +16,9 @@ body{
     
     
 }
+.active{
+    color: blue;
+}
 .navbar-right{
     width: 400px;
     display: flex;
